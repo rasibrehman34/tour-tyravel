@@ -16,15 +16,15 @@ const Destination = () => {
 
         <DestinationData
         className="first-des"
-        heading="Tall" 
-        text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem dolor eum accusantium aliquid culpa, ea ipsa laboriosam laudantium! Eveniet exercitationem, mollitia ipsum dolorem culpa fugit maiores nisi. Doloribus in iusto ullam amet quae consectetur? Error consectetur, harum voluptatum illum illo ipsa totam perspiciatis quia aliquid amet nulla dolorum! Minima nemo accusamus, enim, aliquid placeat doloremque quidem accusantium, voluptatibus facere quod dolores aut nesciunt iste esse cumque exercitationem doloribus qui odio"
+        heading="Thailand" 
+        text="A trip to Thailand offers a mix of vibrant culture, delicious food, and stunning scenery, from the bustling streets of Bangkok to the tranquil beaches of the south and temples of the north. It's known for being a relaxed and friendly country with world-class cuisine, but the heat and sensory overload of cities can be intense for first-time visitors. You can find everything from ornate temples and bustling markets to serene landscapes."
         img1={img1}
         img2={img2}/>
         
          <DestinationData
         className="first-des-reverse"
-        heading="short" 
-        text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem dolor eum accusantium aliquid culpa, ea ipsa laboriosam laudantium! Eveniet exercitationem, mollitia ipsum dolorem culpa fugit maiores nisi. Doloribus in iusto ullam amet quae consectetur? Error consectetur, harum voluptatum illum illo ipsa totam perspiciatis quia aliquid amet nulla dolorum! Minima nemo accusamus, enim, aliquid placeat doloremque quidem accusantium, voluptatibus facere quod dolores aut nesciunt iste esse cumque exercitationem doloribus qui odio"
+        heading="China" 
+        text="China is a land where ancient traditions blend beautifully with modern innovation. From the majestic Great Wall of China to the peaceful Temples of Beijing, and from the futuristic skyline of Shanghai to the breathtaking natural beauty of Zhangjiajie and Guilin, every moment in China feels extraordinary. Enjoy delicious Chinese cuisine, explore vibrant local markets, and discover centuries-old history and culture. Whether you are looking for adventure, culture, shopping, or relaxation, our China Tour Packages offer a complete, unforgettable experience tailored just for you. Let us take care of everything — flights, hotels, transport, and guided tours — so you can simply enjoy your dream trip to China."
         img1={img3}
         img2={img4}/>
         

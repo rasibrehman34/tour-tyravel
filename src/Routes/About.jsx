@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/navbar/Navbar.jsx'
 import Hero from '../components/Hero/Hero.jsx'
-import group4 from '../assets/group4.jpg'
+import heroHome from '../assets/tourtravelImgs/heroHome.jpg'
 import Footer from '../components/Footer/Footer.jsx'
 import AboutUs from '../components/AboutUs/AboutUs.jsx'
 
@@ -11,7 +11,7 @@ const About = () => {
       <Navbar />
         <Hero
         cName="Hero-mid" 
-        heroImg={group4}
+        heroImg={heroHome}
         title="your journey your story"
        url="/about"/>
 

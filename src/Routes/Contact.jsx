@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/navbar/Navbar.jsx";
 import Hero from "../components/Hero/Hero.jsx";
-import group4 from "../assets/group4.jpg";
+import hero2 from "../assets/tourtravelImgs/hero2.jpg";
 import Footer from '../components/Footer/Footer.jsx'
 import ContactUs from "../components/ContactUs/ContactUs.jsx";
 
@@ -11,7 +11,7 @@ const Contact = () => {
       <Navbar />
       <Hero
         cName="Hero-contact"
-        heroImg={group4}
+        heroImg={hero2}
         title="Contact"
         url="/contact"
         btnText="Contact Us"
