@@ -1,0 +1,128 @@
+.navbarItems{
+    margin: 10px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    top: 10px;
+    z-index: 100;
+    background-color: white;
+}
+.navbarLogo{
+    color: #222;
+    font-size: 2rem;
+    cursor: pointer;
+
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+
+}
+.nav-Links{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #222;
+    font-weight: 600;
+    padding: 0.7rem 1rem ;
+    white-space: nowrap;
+}
+.nav-Links:hover{
+    background-color: rgb(5, 145, 184);
+    color: white;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+.nav-Links-mobile{
+    display: none;
+}
+
+.signup{
+    padding: 0.6rem 1rem ;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.signup:hover{
+    background-color: #151516;
+    color: white;
+}
+
+/* Hamburger icon - hidden on desktop */
+.menu-icon{
+        display: none;
+        background: transparent;
+        border: none;
+        font-size: 1.4rem;
+        cursor: pointer;
+        color: #222;
+}
+
+/* Icon spacing when icons are used */
+.nav-icon{
+        margin-right: 8px;
+        font-size: 1rem; /* adjust icon size to match text */
+        vertical-align: middle;
+}
+
+/* Responsive: collapse nav into hamburger */
+@media (max-width: 768px) {
+    .menu-icon{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-menu{
+        display: none; /* hidden by default on small screens */
+        position: absolute;
+        top: 90px; /* below navbar */
+        left: 0;
+        width: 100%;
+        margin: 10px auto 0;
+        flex-direction: column;
+        background: white;
+        padding: 0.5rem 0;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+        gap: 0;
+        z-index: 50;
+        border-radius: 13px;
+    }
+
+    .nav-menu.active{
+        display: flex;
+    }
+
+    .nav-menu li{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .nav-Links{
+        display: block;
+        padding: 0.9rem 1rem;
+    }
+
+    .signup{
+        margin: 0.7rem auto;
+        padding: 1.5rem ;
+        width: 90%;
+    }
+
+    /* make navbar layout compact on small screens */
+    .navbarItems{
+        padding: 0 16px;
+    }
+}
